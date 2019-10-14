@@ -9,6 +9,8 @@ while x > 0
 end
 end
 
+countdown(10)
+
 
 
 
