@@ -14,13 +14,16 @@ countdown(10)
 
 
 
+
 def countdown_with_sleep(x)
+sleep(1.seconds)
 while x > 0 
-  puts "#{number} SECOND(S)!"
+  puts "#{x} SECOND(S)!"
   x -= 1
-  sleep(1.seconds)
-end 
+  end 
 end
+
+countdown_with_sleep(5)
 
 
 
